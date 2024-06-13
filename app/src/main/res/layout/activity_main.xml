@@ -36,5 +36,17 @@
         android:text="Convert"
         android:layout_marginRight="16dp"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:id="@+id/random_number_button"
+        app:layout_constraintTop_toBottomOf="@+id/convert_button"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Predict Age"
+        android:layout_marginRight="16dp"/>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
